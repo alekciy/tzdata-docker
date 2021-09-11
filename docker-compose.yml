@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  old:
+    build:
+      context: ./
+      dockerfile: old.Dockerfile
+    volumes:
+      - ./:/var/www/html
